@@ -3,8 +3,10 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="sticky top-0">
-      <Image src={"/assets/logo.webp"} height={50} width={50} alt="" />
+    <nav className="sticky top-0 bg-white shadow-less">
+      <div className="flex items-center justify-center">
+        <Image src={"/assets/logo.webp"} height={100} width={200} alt="" />
+      </div>
     </nav>
   );
 };
