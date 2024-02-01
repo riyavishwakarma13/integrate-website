@@ -43,6 +43,7 @@ const Category = () => {
               src={item.src}
               className="object-cover"
               fill
+              priority
               alt={item.title}
             />
             <div className="absolute grid place-items-center h-full w-full">
