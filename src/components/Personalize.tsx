@@ -21,10 +21,10 @@ const Personalize = () => {
       <div className="grid md:grid-cols-2 py-5 place-items-center max-w-5xl mx-auto gap-5">
         <p className="font-medium">
           Our offerings transcend the ordinary, allowing you to gift a scent
-          that's as unique as the person receiving it. Whether it&apos;s adding
-          a personal touch, customizing the packaging, or tailoring scents to
-          individual preferences, &quot;Intigrate&quot; celebrates the beauty of
-          thoughtful gifting.
+          that&apos;s as unique as the person receiving it. Whether it&apos;s
+          adding a personal touch, customizing the packaging, or tailoring
+          scents to individual preferences, &quot;Intigrate&quot; celebrates the
+          beauty of thoughtful gifting.
         </p>
         <Image
           src={"/assets/personalize/20ml slider box 12v.webp"}
