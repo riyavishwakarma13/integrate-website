@@ -50,7 +50,7 @@ const About = () => {
               />
             </div>
             <div className="flex flex-col justify-center h-[250px] w-[250px] rounded-xl bg-gray-100 items-center gap-4 p-5 ">
-              <p className="text-center text-sm">
+              <p className="text-center capitalize text-sm">
                 <span className="font-semibold text-base">{item.title}</span>{" "}
                 <br />
                 &quot;{item.content}&quot;

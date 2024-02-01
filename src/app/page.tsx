@@ -4,6 +4,7 @@ import Choose from "@/components/Choose";
 import Collection from "@/components/Collection";
 import Faq from "@/components/Faq";
 import Herobanner from "@/components/Herobanner";
+import Personalize from "@/components/Personalize";
 import Testimonials from "@/components/Testimonials";
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <div className="max-w-7xl mx-auto">
         <Category />
         <Choose />
+        <Personalize />
         <Testimonials />
         <Faq />
       </div>
