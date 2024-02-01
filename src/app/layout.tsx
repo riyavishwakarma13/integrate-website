@@ -3,7 +3,7 @@ import { Dancing_Script, Sora } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import { cn } from "@/util";
-// import Footer from "@/components/Footer";
+import Footer from "@/components/Footer";
 
 const sora = Sora({
   subsets: ["latin"],
@@ -36,7 +36,7 @@ export default function RootLayout({
       <body className={cn(sora.className, dancing.style)}>
         <Navbar />
         {children}
-        {/* <Footer /> */}
+        <Footer />
       </body>
     </html>
   );

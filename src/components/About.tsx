@@ -37,7 +37,7 @@ const About = () => {
         corporate gifting, elevating the experience of giving and receiving
         fragrances.
       </p>
-      <div className="grid md:grid-cols-2 place-items-center gap-5">
+      <div className="grid lg:grid-cols-2 place-items-center gap-5">
         {content.map((item, i) => (
           <div key={i} className="grid md:grid-cols-2 gap-5 place-items-center">
             <div className="relative h-[250px] w-[250px]">
