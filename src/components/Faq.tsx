@@ -30,7 +30,7 @@ const faqs = [
 
 const Faq = () => {
   return (
-    <section className="space-y-6 py-5">
+    <section className="space-y-6 py-10">
       <div className="border-b-2 pb-2 border-primary">
         <p className="text-4xl font-bold">Frequently Asked Questions</p>
       </div>

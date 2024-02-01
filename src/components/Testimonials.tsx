@@ -41,7 +41,7 @@ const swiper = [
 
 const Testimonials = () => {
   return (
-    <div className="py-5 space-y-6">
+    <section className="py-10 space-y-6">
       <div className="border-b-2 pb-2 border-primary">
         <p className="text-4xl font-bold">Our Testimonials</p>
       </div>
@@ -69,7 +69,7 @@ const Testimonials = () => {
           </SwiperSlide>
         ))}
       </Swiper>
-    </div>
+    </section>
   );
 };
 
