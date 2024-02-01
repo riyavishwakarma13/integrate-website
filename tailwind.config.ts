@@ -8,6 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sora: ["var(--font-sora)"],
+        dancing: ["var(--font-dancing)"],
+      },
       colors: {
         primary: "#CD4050",
       },
