@@ -1,7 +1,6 @@
 import Choose from "@/components/Choose";
 import Faq from "@/components/Faq";
 import Testimonials from "@/components/Testimonials";
-import Image from "next/image";
 
 export default function Home() {
   return (
