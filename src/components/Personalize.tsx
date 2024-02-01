@@ -2,11 +2,11 @@ import Image from "next/image";
 import React from "react";
 
 const img = [
-  "/assets/personalize/1.webp",
-  "/assets/personalize/2.webp",
+  // "/assets/personalize/1.webp",
+  // "/assets/personalize/2.webp",
   "/assets/personalize/3.webp",
-  "/assets/personalize/4.webp",
-  "/assets/personalize/5.webp",
+  // "/assets/personalize/4.webp",
+  // "/assets/personalize/5.webp",
   "/assets/personalize/6.webp",
 ];
 
@@ -14,9 +14,9 @@ const Personalize = () => {
   return (
     <section className="space-y-6 py-10">
       <div className="border-b-2 pb-2 border-primary">
-        <p className="text-4xl capitalize font-bold">
+        <h4 className="text-4xl capitalize font-bold">
           Personalize your packaging
-        </p>
+        </h4>
       </div>
       <div className="grid md:grid-cols-2 py-5 place-items-center max-w-5xl mx-auto gap-5">
         <p className="font-medium">
@@ -34,14 +34,14 @@ const Personalize = () => {
           alt="personalize"
         />
       </div>
-      <div className="flex flex-wrap justify-center gap-5 py-5 items-center">
+      <div className="flex flex-wrap justify-center gap-5 items-center">
         {img.map((item, i) => (
-          <div key={i} className="relative w-[250px] h-[250px]">
+          <div key={i} className="relative max-w-[500px] w-full h-[335px]">
             <Image
               src={item}
               priority
               fill
-              className="rounded-xl"
+              className="rounded-xl object-contain"
               alt="personalize"
             />
           </div>

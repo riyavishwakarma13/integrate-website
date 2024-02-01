@@ -30,7 +30,7 @@ const About = () => {
   return (
     <section className="space-y-6 py-5">
       <div className="border-b-2 pb-2 border-primary">
-        <p className="text-4xl font-bold">About Us</p>
+        <h2 className="text-4xl font-bold">About Us</h2>
       </div>
       <p>
         Integrate embodies the spirit of personalized, traditional, and

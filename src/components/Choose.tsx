@@ -28,7 +28,7 @@ const Choose = () => {
   return (
     <section className="space-y-5 py-10">
       <div className="border-b-2 pb-2 border-primary">
-        <p className="text-4xl font-bold">Why Choose Us?</p>
+        <h5 className="text-4xl font-bold">Why Choose Us?</h5>
       </div>
       <div className="flex flex-wrap items-center justify-center gap-7 py-5">
         {content.map((item) => (

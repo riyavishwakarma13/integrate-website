@@ -13,14 +13,23 @@ export default function Home() {
       <div className="max-w-7xl mx-auto">
         <Herobanner />
         <About />
+        <Category />
+        <Personalize />
       </div>
       <Collection />
       <div className="max-w-7xl mx-auto">
-        <Category />
         <Choose />
-        <Personalize />
-        <Testimonials />
         <Faq />
+        <Testimonials />
+        <section className="max-w-4xl mx-auto py-10">
+          <p className="text-lg text-center font-bold">
+            &quot;At <span className="text-primary">Intigrate</span>, we
+            don&apos;t just sell perfumes; we curate moments, emotions, and
+            timeless memories. Gift the essence of tradition with a touch of
+            modern luxury. Explore Intigrate, where fragrance meets
+            emotion.&quot;
+          </p>
+        </section>
       </div>
     </main>
   );

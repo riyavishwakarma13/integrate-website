@@ -32,7 +32,9 @@ const Category = () => {
   return (
     <section className="space-y-5 py-5">
       <div className="border-b-2 pb-2 border-primary">
-        <p className="text-4xl text-center font-bold">Category Of Fragrance</p>
+        <h3 className="text-4xl text-center font-bold">
+          Category Of Fragrance
+        </h3>
       </div>
       <div className="flex flex-wrap py-5 justify-center items-center">
         {types.map((item, i) => (

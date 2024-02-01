@@ -32,7 +32,7 @@ const Faq = () => {
   return (
     <section className="space-y-6 py-10">
       <div className="border-b-2 pb-2 border-primary">
-        <p className="text-4xl font-bold">Frequently Asked Questions</p>
+        <h6 className="text-4xl font-bold">Frequently Asked Questions</h6>
       </div>
       <div className="space-y-4">
         {faqs.map((item, i) => (
