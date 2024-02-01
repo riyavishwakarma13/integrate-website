@@ -59,7 +59,7 @@ const Footer = () => {
           </svg>
         </Link>
         {/* number  */}
-        <Link href={"tel:+91 9869323232"} target="_blank">
+        <Link href={"tel:+919920063232"} target="_blank">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="w-6 h-8"
