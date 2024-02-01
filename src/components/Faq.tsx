@@ -36,7 +36,10 @@ const Faq = () => {
       </div>
       <div className="space-y-4">
         {faqs.map((item, i) => (
-          <details className="bg-gray-100 px-6 rounded-xl py-4" key={i}>
+          <details
+            className="bg-gray-100 cursor-pointer px-6 rounded-xl py-4"
+            key={i}
+          >
             <summary className="font-medium pb-1">{item.summary}</summary>
             <div className="border-t border-primary pt-2">
               <p>{item.content}</p>

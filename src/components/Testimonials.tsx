@@ -54,15 +54,15 @@ const Testimonials = () => {
         modules={[Autoplay, A11y]}
         className="mySwiper"
         speed={5000}
-        // autoplay={{
-        //   delay: 0,
-        //   disableOnInteraction: true,
-        // }}
+        autoplay={{
+          delay: 0,
+          disableOnInteraction: true,
+        }}
       >
         {swiper.map((item, i) => (
           <SwiperSlide
             key={i}
-            className="bg-gray-100 min-h-[120px] flex flex-col justify-between items-center gap-3 max-w-lg w-full rounded-xl p-3"
+            className="bg-gray-100 min-h-[120px] cursor-grab gap-3 max-w-lg w-full rounded-xl p-3"
           >
             <p className="italic text-sm">&quot;{item.content}&quot;</p>
             <p className="font-medium">- {item.name}</p>
