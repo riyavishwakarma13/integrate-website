@@ -1,3 +1,4 @@
+import Category from "@/components/Category";
 import Choose from "@/components/Choose";
 import Faq from "@/components/Faq";
 import Herobanner from "@/components/Herobanner";
@@ -7,6 +8,7 @@ export default function Home() {
   return (
     <div className="max-w-7xl mx-auto p-4">
       <Herobanner />
+      <Category />
       <Choose />
       <Testimonials />
       <Faq />

@@ -53,7 +53,7 @@ const Testimonials = () => {
         centeredSlides={true}
         modules={[Autoplay, A11y]}
         className="mySwiper"
-        speed={5000}
+        speed={7000}
         autoplay={{
           delay: 0,
           disableOnInteraction: true,
