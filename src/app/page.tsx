@@ -9,15 +9,15 @@ import Testimonials from "@/components/Testimonials";
 
 export default function Home() {
   return (
-    <main className="p-4">
-      <div className="max-w-7xl mx-auto">
+    <main>
+      <div className="max-w-7xl p-4 mx-auto">
         <Herobanner />
         <About />
         <Category />
         <Personalize />
       </div>
       <Collection />
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl p-4 mx-auto">
         <Choose />
         <Faq />
         <Testimonials />
