@@ -5,12 +5,13 @@ const content = [
   {
     src: "/assets/about/festival.webp",
     title: "Traditional gifting",
-    content: "Festive Aromas, Celebrate Traditions. Gift the Essence of Joy.",
+    content:
+      "Festive Aromas that Celebrate Traditions. Gift the Essence of Joy.",
   },
   {
     src: "/assets/about/wedding.webp",
     title: "Wedding gifting",
-    content: "Scented Moments of Love. Perfume the Beginnings of Forever.",
+    content: "Scented Moments of Love. Perfume, the Beginning of Forever.",
   },
   {
     src: "/assets/about/corporate-gifting.webp",
@@ -33,9 +34,9 @@ const About = () => {
         <h2 className="text-4xl font-bold">About Us</h2>
       </div>
       <p>
-        Integrate embodies the spirit of personalized, traditional, and
-        corporate gifting, elevating the experience of giving and receiving
-        fragrances.
+        <span className="text-primary">Intigrate</span> embodies the spirit of
+        personalized, traditional, and corporate gifting, elevating the
+        experience of giving and receiving fragrances.
       </p>
       <div className="grid lg:grid-cols-2 place-items-center gap-5">
         {content.map((item, i) => (
