@@ -22,9 +22,9 @@ module.exports = {
   ],
   robotsTxtOptions: {
     additionalSitemaps: [
-      "https://intigrate.in/sitemap.xml",
-      "https://intigrate.in/sitemap-0.xml",
       "https://intigrate.in/sitemap-1.xml",
+      "https://intigrate.in/sitemap-2.xml",
+      "https://intigrate.in/sitemap-3.xml",
     ],
   },
 };
