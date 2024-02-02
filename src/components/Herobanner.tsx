@@ -7,7 +7,7 @@ const Herobanner = () => {
     <section className="mx-auto grid min-h-[69vh] max-w-7xl place-items-center gap-10 py-14 md:px-5 lg:grid-cols-2">
       <div className="space-y-6 px-5">
         <div className="relative">
-          <h1 className="relative z-10 text-4xl font-bold md:text-7xl">
+          <h1 className="relative z-10 text-4xl capitalize font-bold md:text-7xl">
             Where fragrance meets the art of gifting
           </h1>
           <div className="absolute -left-6 -top-6 h-28 w-28 rounded-full bg-primary  hover:bg-accent"></div>

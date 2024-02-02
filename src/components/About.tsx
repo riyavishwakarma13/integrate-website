@@ -6,7 +6,7 @@ const content = [
     src: "/assets/about/festival.webp",
     title: "Traditional gifting",
     content:
-      "Festive Aromas that Celebrate Traditions. Gift the Essence of Joy.",
+      "Festive Aromas that Celebrate Tradition. Gift the Essence of Joy.",
   },
   {
     src: "/assets/about/wedding.webp",

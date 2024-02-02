@@ -23,8 +23,9 @@ const Personalize = () => {
           Our offerings transcend the ordinary, allowing you to gift a scent
           that&apos;s as unique as the person receiving it. Whether it&apos;s
           adding a personal touch, customizing the packaging, or tailoring
-          scents to individual preferences, &quot;Intigrate&quot; celebrates the
-          beauty of thoughtful gifting.
+          scents to individual preferences,{" "}
+          <span className="text-primary">&quot;Intigrate&quot;</span> celebrates
+          the beauty of thoughtful gifting.
         </p>
         <Image
           src={"/assets/personalize/20ml slider box 12v.webp"}
